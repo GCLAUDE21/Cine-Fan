@@ -1,0 +1,109 @@
+@use '../_settings' as *;
+
+
+.mapping {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+    .card {
+        
+        background: $color-dark;
+        color: $color-light;
+        border: 1px solid $color-light;
+        display: flex;
+        flex-direction: column;
+        flex: 1 0 25%;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 5px;
+        transition: 1s ease;
+
+        &:hover {
+            background: rgb(85, 37, 90);
+        }
+
+
+        & img {
+
+            width: 80%;
+            max-width: 250px;
+            margin: 8px;
+            border-radius: 5px;
+            align-self: center;
+        }
+
+        & h3 {
+            color: $color-primary;
+            text-shadow: 1px 2px 3px $color-light;
+            font-size: 1.3rem;
+        }
+
+        & em {
+            font-size: 0.9rem;
+            color: $color-light;
+            margin: 5px;
+            font-family: serif;
+        }
+
+        & h4 {
+            font-size: 0.9rem;
+            color: $color-light;
+            font-family: serif;
+            margin: 5px;
+
+            & svg {
+                color: gold;
+            }
+
+        }
+
+        & ul {
+            display: flex;
+            justify-content: center;
+            
+
+            & li {
+                background: $color-primary;
+                margin: 5px;
+                padding: 3px;
+                border-radius: 5px;
+                font-size: 0.7rem;
+            }
+        }
+
+        & h5 {
+            font-size: 1rem;
+            text-align: left;
+            margin: 8px;
+        }
+
+        & p {
+            font-size: 0.8rem;
+            font-family: serif;
+            letter-spacing: 1px;
+            padding: 3px;
+            text-align: left;
+        }
+
+        & button {
+            background: $color-primary;
+            border-radius: 20px;
+            width: 50%;
+            align-self: center;
+            margin: 10px;
+            justify-self: last baseline;
+            margin-top: auto;
+            color: pink;
+            cursor: pointer;
+
+            
+        }
+
+
+
+
+        
+    }

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Cinzel";
+    src: url(../assets/font/Cinzel_Decorative/CinzelDecorative-Bold.ttf);
+}
+@font-face {
+    font-family: "ZenLoop" ;
+    src: url(../assets/font/ZenLoop-Regular.ttf);
+}
+
+// Colors
+
+$color-primary: rgb(98, 0, 255);
+$color-secondary: rgb(204, 0, 255);
+$color-dark: #333333;
+$color-light: #b7dde9;
+$color-white: #f3f3f3;
+
+// Typographie
+$font-primary: 'Cinzel', sans-serif;
+$font-secondary: "ZenLoop", sans-serif;

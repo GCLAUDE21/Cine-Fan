@@ -1,0 +1,19 @@
+@use './_settings.scss' as *;
+@use './components/_Header.scss';
+@use './components/card';
+@use './page/app';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+body {
+    background: rgb(37, 7, 79);
+    min-height: 100vh;
+    font-family: $font-primary;
+    color: $color-primary;
+}
