@@ -4,7 +4,7 @@ Application React de recherche et découverte de films, propulsée par l'API TMD
 
 ## Démo
 
-[Ciné Fan en ligne](https://GCLAUDE21.github.io/Cine-fan/)
+[Voir le site](https://gclaude21.github.io/Cine-Fan/)
 
 ## Fonctionnalités
 
